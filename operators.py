@@ -63,3 +63,10 @@ username = "admin"
 password = "secure123"
 
 print(f'true if both are correct? {username == password}')
+
+secret_code = float(input("enter your secret code"))
+print((secret_code>50)and (secret_code<50))
+
+
+
+
